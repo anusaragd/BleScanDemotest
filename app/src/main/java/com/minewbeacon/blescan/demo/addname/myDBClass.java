@@ -1,4 +1,4 @@
-package com.minewbeacon.blescan.demo.SQLite;
+package com.minewbeacon.blescan.demo.addname;
 
 import android.content.ContentValues;
 import android.content.Context;
