@@ -18,11 +18,11 @@
         <activity
             android:name="com.minewbeacon.blescan.demo.MainActivity"
             android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
         </activity>
 
         <service android:name="com.minew.beacon.ScanService" />
@@ -33,7 +33,14 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name="com.minewbeacon.blescan.demo.addname.AddActivity"></activity>
+        <activity android:name="com.minewbeacon.blescan.demo.addname.AddActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

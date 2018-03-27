@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BleScanDemotest.iml" filepath="$PROJECT_DIR$/BleScanDemotest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IBEACON-SQLITE.iml" filepath="$PROJECT_DIR$/IBEACON-SQLITE.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/blescanlibrary/blescanlibrary.iml" filepath="$PROJECT_DIR$/blescanlibrary/blescanlibrary.iml" />
     </modules>

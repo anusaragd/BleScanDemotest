@@ -21,7 +21,7 @@ public class myDBClass extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
 
     // Database Name
-    private static final String DATABASE_NAME = "mydatabase";
+    private static final String DATABASE_NAME = "mydatabasetest";
 
     // Table Name
     private static final String TABLE_MEMBER = "members";
@@ -65,7 +65,7 @@ public class myDBClass extends SQLiteOpenHelper {
              */
 
             ContentValues Val = new ContentValues();
-            Val.put("MemberID", strMemberID);
+          //  Val.put("MemberID", strMemberID);
             Val.put("Name", strName);
             Val.put("Tel", strTel);
 

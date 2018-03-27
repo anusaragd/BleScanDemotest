@@ -58,13 +58,13 @@ public class AddActivity extends AppCompatActivity {
         AlertDialog ad = adb.create();
 
         // Check MemberID
-        if(tMemberID.getText().length() == 0)
-        {
-            ad.setMessage("Please input [MemberID] ");
-            ad.show();
-            tMemberID.requestFocus();
-            return false;
-        }
+//        if(tMemberID.getText().length() == 0)
+//        {
+//            ad.setMessage("Please input [MemberID] ");
+//            ad.show();
+//            tMemberID.requestFocus();
+//            return false;
+//        }
 
         // Check Name
         if(tName.getText().length() == 0)
